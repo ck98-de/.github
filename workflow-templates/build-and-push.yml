@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Login to GitHub Container Registry
         run: echo "${{ secrets.CK98_REGISTRY_PASSWORD }}" | docker login ${{ vars.CK98_REGISTRY_URL }} -u '${{ vars.CK98_REGISTRY_USERNAME }}' --password-stdin
