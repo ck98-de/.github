@@ -1,0 +1,11 @@
+{
+    "name": "Build and Push Docker Image Workflow",
+    "description": "CK98 Organization CD starter workflow.",
+    "iconName": "octicon rocket",
+    "categories": [
+        "deployment"
+    ],
+    "filePatterns": [
+        "^Dockerfile"
+    ]
+}
